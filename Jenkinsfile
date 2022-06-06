@@ -4,6 +4,6 @@ node {
         git "https://github.com/avielb/DevOps1004.git"
     }
     stage("show files"){
-        bat("dir)
+        bat 'dir'
     }
 }
